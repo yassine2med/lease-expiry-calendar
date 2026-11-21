@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="lease-expiry-calendar" width="100%"></p>
+
 # lease-expiry-calendar
 
 Missed lease notice deadlines are expensive: miss one and a tenant renews by default, or a rent review passes unnoticed. This repo reads a lease register CSV, works out every critical date (expiry, renewal notice deadline, termination notice deadline and rent review), lists them with days remaining, and can write them to an .ics calendar file.
