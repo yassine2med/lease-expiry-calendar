@@ -2,6 +2,8 @@
 
 # lease-expiry-calendar
 
+[![CI](https://github.com/yassine2med/lease-expiry-calendar/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/lease-expiry-calendar/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 Missed lease notice deadlines are expensive: miss one and a tenant renews by default, or a rent review passes unnoticed. This repo reads a lease register CSV, works out every critical date (expiry, renewal notice deadline, termination notice deadline and rent review), lists them with days remaining, and can write them to an .ics calendar file.
 
 ![Screenshot](docs/screenshot.png)
